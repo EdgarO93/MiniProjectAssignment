@@ -1,0 +1,110 @@
+/* this will help the nav bar stay up and it is a universal selector*/
+* {
+  margin:0;
+  padding:0;  
+}
+
+    
+  
+
+  body{
+      background-color: brown;
+      position: relative;
+      font-family: verdana,sans-serif;
+      color:black
+  }
+
+  h1,
+  h2 {
+    margin: 20px;
+  }
+
+  header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: forestgreen;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid teal;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+  main {
+    padding: 60px 0;
+  }
+/*this makes the hyperlinks white*/
+  a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+/*this will center the image*/
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+
+
+
+    
+  
+  .text-right{
+    text-align: right;   
+     
+    }
+/* had a class for the figcaption but changing the class to have the same class made it simpler, didnt realize i could do both as they were all text*/
+    .text-center{
+      text-align: center;
+    }
+    
+/* had a class ul but it wouldnt work until i removed it and then made it a general li */
+    li{
+      
+      display: inline;
+      padding: 0px 10px;
+      text-decoration: none;
+    
+     } 
+
+  
+
+  .login{
+    display: block;
+    color: black;
+    background-color: darkgray;
+
+
+}
+form {
+
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+
+  label {
+    display: block;
+  
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
